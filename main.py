@@ -1,16 +1,22 @@
-
+import sys
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-scope = "user-library-read"
+scope = "user-read-recently-played"
+client_id = sys.argv[1]
+print("Client id : ", client_id)
+client_secret = sys.argv[2]
+print("Client secret : ", client_secret)
+redirect_uri = sys.argv[3]
+print("Redirect URI : ", redirect_uri)
 
-# export SPOTIPY_CLIENT_ID='1b27856640e94ce4b1a1c516a44695e9'
-# export SPOTIPY_CLIENT_SECRET='ae2f3f4e824448e3898e3f11d1ce106c'
-# export SPOTIPY_REDIRECT_URI= "https://localhost:9090"
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope))
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(scope=scope, client_id=client_id, client_secret=client_secret, redirect_uri=redirect_uri))
 
-results = sp.current_user_saved_tracks()
-for idx, item in enumerate(results['items']):
+
+result = sp.current_user_recently_played(limit=50, after=None, before=None)
+# print(result)
+for idx, item in enumerate(result['items']):
     track = item['track']
-    print(idx, track['artists'][0]['name'], " – ", track['name'])
+    print(idx, track['name'])
+
