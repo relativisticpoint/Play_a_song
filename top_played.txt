@@ -1,0 +1,53 @@
+Client id :  fad493c346d148b9bf130c2e67f65b55
+Client secret :  8b1fd3a82e674964a0addacaa3765ed0
+Redirect URI :  http://localhost:8080
+0 Dimanche soir
+1 Little Sadie
+2 Ceux qui rêvent
+3 La reine du bal
+4 Dance Me to the End of Love
+5 NUITS FAUVES
+6 Les mains froides
+7 Castle on the Hill - Recorded at Spotify Studios New York City
+8 Donna Donna
+9 grandiose
+10 Holm
+11 Dance Me to the End of Love
+12 Jimmy
+13 Les mains froides
+14 Sway
+15 NUITS FAUVES
+16 La Luna y el Lobo (Jhon Montoya Expedition)
+17 Hallelujah
+18 Castle on the Hill - Recorded at Spotify Studios New York City
+19 Holm
+20 Donna Donna
+21 The Astounding Eyes Of Rita
+22 What He Wrote
+23 grandiose
+24 Me faire la belle
+25 Sweet Caroline - Live
+26 Suavemente
+27 Ophelia
+28 Ceux qui rêvent
+29 Little Sadie
+30 E A VERDADE
+31 La reine du bal
+32 Bécane
+33 El Kess Yaddour
+34 The Gambler
+35 Blowin' in the Wind
+36 Smells Like Teen Spirit
+37 Les Autres
+38 Riptide
+39 Some Nights
+40 Where Did You Sleep Last Night
+41 Dance Me to the End of Love
+42 Jimmy
+43 Les mains froides
+44 Sway
+45 NUITS FAUVES
+46 La Luna y el Lobo (Jhon Montoya Expedition)
+47 Hallelujah
+48 Castle on the Hill - Recorded at Spotify Studios New York City
+49 Holm
